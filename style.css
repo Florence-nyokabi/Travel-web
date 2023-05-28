@@ -98,3 +98,87 @@ body{
     justify-content: space-between;
     align-content: center;
 }
+
+/* ************************hotels */
+.southeast_hotels{
+    text-align: center;
+
+}
+.southeast_hotels h2{
+font-size: large;
+margin-bottom: 2%;
+}
+.southeast_hotels h3{
+    margin-bottom: 2%;
+}
+
+.magnificent{
+    background-image: url(./images/tokrabi.jpeg);
+    background-repeat: no-repeat;
+   border-radius: 30px;
+
+    
+}
+.magnificent img{
+    width: 30%;
+    height: 30%;
+}
+.khaolak{
+    background-image: url(./images/khaolak.jpeg.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+}
+.paradise_island{
+    background-image: url(./images/paradise_island.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+  
+}
+.malasyia{
+    background-image: url(./images/huahin.jpeg);
+    background-repeat: no-repeat;
+  
+}
+.phuquoc{
+    background-image: url(./images/malasyia.jpeg);
+    border-radius: 30px;
+    
+}
+.krabi{
+    background-image: url(./images/phuquoc.jpeg);
+    border-radius: 30px;
+   
+}
+.hotels{
+    display: grid;
+ grid-template-columns: repeat(3,1fr);
+ /* width: 1400px;
+ height: 700px; */
+ gap: 50px;
+ /* background-image: url(./images/background.jpeg.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover; */
+ margin-left: 3%;
+
+ 
+}
+.text{
+    margin-top: 80%;
+    padding-left: 30px;
+}
+.text h4{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+.text h3,
+.text h2{
+    font-weight: bolder;
+   font-style: italic;
+    color: white;
+    font-size: x-large;
+}
+#rating{
+color: yellow;
+}
