@@ -182,3 +182,204 @@ margin-bottom: 2%;
 #rating{
 color: yellow;
 }
+/************************************Styling for the Locations Page*************************************/
+@keyframes bounce{
+    0%{
+      transform: translateY(0);
+    }
+    50%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+}  
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.first{
+    background-image: url(images/elepha.jpg);
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+
+}
+#image1{
+    width: 45%;
+    height: fit-content;
+    margin-top: 10%;
+    margin-left: 50%;
+    border-radius: 5px;
+    border-radius: 0px 155px ;
+
+    
+}
+#image1:hover{
+  transform: scale(1.05);
+}
+
+#image2:hover{
+  transform: scale(1.05);
+}
+
+#image2{
+    width: 45%;
+    margin-left: -65%;
+    margin-top: 25%;
+    border-radius: 5px;
+    height: fit-content;
+    border-radius:155px 0px ;
+
+
+    /* position: relative;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-iteration-count:inherit; */
+    /* animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); */ 
+
+
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee-animation 20s linear infinite;
+}
+
+@keyframes marquee-animation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.second{
+    background-image: url(images/black.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#one{
+    color: yellow;
+    font-family:serif;
+    font-size: 40px;
+    font-style: italic;
+}
+#kenyaButton{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+
+        font-size: x-large;
+        color:white;
+        background-color:orange;
+        border:solid 3px orange;
+        padding: 5px;
+        position: relative;
+        animation-name: bounce;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        /* animation-iteration-count:inherit; */
+        animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.images{
+    display: flex;
+    /* justify-content: space-between; */
+}
+#kenya{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#africa{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+}
+
+.content1 video{
+  z-index: 000;
+  position: absolute;
+  /* top: 0; */
+  left: 50%;
+  width: 50%;
+  /* height: auto; */
+  height: 100%;
+  object-fit: cover;
+  
+
+
+}
+.slider{
+
+}
+  
+  @keyframes my-animation {
+    from {
+      background-color: orange;
+      width: 100%;
+      top: 10px;
+    }
+    to {
+      background-color: #33475b;
+      width: 0px;
+      top: 100px;
+    }
+  }
+
+  #one {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+   }
+   #one {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    line-height: 50px;
+    text-align: left;
+   
+    /* Apply animation to this element */	
+    animation: one 2s linear;
+   }
+   /* Move it (define the animation) */
+   @keyframes one {
+    0%   { 
+    transform: translateX(200%); 		
+    }
+    100% { 
+    transform: translateX(0%); 
+    }
+   } 
+   #kenyaButton2{
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    margin-left: 10%;
+
+        font-size: x-large;
+        color:black;
+        outline: none;
+        color:white;
+        background-color:orange;
+        border:solid 3px orange;
+}
+.slider{
+    border-radius: 30px;
+}
