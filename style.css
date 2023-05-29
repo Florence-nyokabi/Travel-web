@@ -37,7 +37,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 1rem 4%;
     background: #dee2e6;
     box-shadow: var(---box-shadow);
 }
@@ -54,13 +54,17 @@ body{
 }
 
 .header .navbar a{
-    font-size: 1.7rem;
+    font-size: 2rem;
+    font-weight: 600;
     margin: 0 1rem;
     color: var(--black);
 }
 
 .header .navbar a:hover{
     color: var(--orange);
+}
+.logo{
+    letter-spacing: 18px;
 }
 .header .icons i{
     height: 4.5rem;
@@ -109,6 +113,8 @@ body{
 }
 .about-content{
     margin-top: 5%;
+    line-height: 35px;
+    letter-spacing: 5px;
     margin-right: 10%;
     font-weight: 600;
     font-size: 18px;
@@ -124,6 +130,7 @@ body{
 .about-content h1{
     font-size: 35px;
     font-weight: 900;
+    margin-bottom: 4%;
 }
 .firstimage{
     margin-bottom: 20%;  
@@ -197,7 +204,7 @@ margin-bottom: 2%;
 .malasyia{
     background-image: url(./images/huahin.jpeg);
     background-repeat: no-repeat;
-  
+    border-radius: 30px;
 }
 .phuquoc{
     background-image: url(./images/malasyia.jpeg);
@@ -227,9 +234,9 @@ margin-bottom: 2%;
     padding-left: 30px;
 }
 .text h4{
-    font-weight: bolder;
+    font-weight: 900;
     font-size: xx-large;
-    color: white;
+    color:#eee;
 }
 .text h3,
 .text h2{
@@ -270,7 +277,7 @@ color: yellow;
     width: 45%;
     height: fit-content;
     margin-top: 10%;
-    margin-left: 50%;
+    margin-left: 40%;
     border-radius: 5px;
     border-radius: 0px 155px ;
 
@@ -379,13 +386,52 @@ color: yellow;
   /* height: auto; */
   height: 100%;
   object-fit: cover;
-  
-
 
 }
-.slider{
+.content{
+    color: wheat;
+    font-size: 25px;
+    font-weight: 800;
+    margin: -70% 0% 0 10% ;
+    line-height: 60px;
+}
+.content h1{
+    color: #fab005;
+}
+.content p{
+    margin-right: 10%;
+}
+.media-icons{
+    /* margin-top: -70%; */
+    margin-left: 5%;
+    margin-bottom: 25%;
+    display: grid;
+    color: wheat;
+    font-size: 30px;
+}
+.media-icons a{
+    font-style: none;
+    color: wheat;
+}
+.content a{ 
+    border-radius: 15px;
+    margin-left: 20%;
+    padding: 2% 4%;
+    font-size: x-large;
+    color:black;
+    outline: none;
+    /* color:white; */
+    background-color:orange;
+    border:solid 3px orange;
 
 }
+.content p{
+    margin-bottom: 5%;
+}
+.about-images img:hover{
+    transform: scale(1.05);
+  }
+
   
   @keyframes my-animation {
     from {
