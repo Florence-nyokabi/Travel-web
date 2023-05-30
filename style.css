@@ -389,22 +389,26 @@ color: yellow;
 
 }
 .content{
-    color: wheat;
+    color: #f8f9fa;
     font-size: 25px;
     font-weight: 800;
     margin: -70% 0% 0 10% ;
-    line-height: 60px;
+    line-height: 50px;
 }
 .content h1{
     color: #fab005;
+    letter-spacing: 3px;
+    font-size: 3em;
+    font-weight: bolder;
 }
 .content p{
-    margin-right: 10%;
+    margin-right: 38%;
+    margin-top: 4%;
 }
 .media-icons{
     /* margin-top: -70%; */
     margin-left: 5%;
-    margin-bottom: 25%;
+    margin-bottom: 9%;
     display: grid;
     color: wheat;
     font-size: 30px;
